@@ -26,4 +26,9 @@ GHCR package is public, so the cluster needs no imagePullSecret. In production I
 - [x] Part 1: Terraform cluster
 - [x] Part 2: GitOps deployment
 - [x] Part 3: CI/CD (build, push, tag bump)
+
+
+## Zero-downtime test
+`scripts/zero-downtime-check.sh` ran during the rollout from <old SHA> to <new SHA>: OK: ____  FAILED: 0.
+What makes it work: maxUnavailable 0 / maxSurge 1, readiness probe, preStop sleep (endpoint removal before shutdown), graceful SIGTERM handling in the app.
 EOF
