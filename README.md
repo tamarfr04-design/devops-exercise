@@ -13,6 +13,7 @@
 - Public repo, so Argo CD can read it without credentials.
 - kind for the local cluster: nodes run as Docker containers, so 1 control-plane + 2 workers is simple config, and there's a Terraform provider for it.
 - ingress-nginx as the ingress controller: best-documented setup with kind, fastest under time pressure. Trade-off: the community project was retired in March 2026, so for production I'd use a maintained option (AWS Load Balancer Controller on EKS, Gateway API, or Traefik).
+- The Argo CD Application is registered once with `kubectl apply` (bootstrap). After that, all changes go through git; CI never touches the cluster.
 
 ## Progress
 - [ ] Part 0: setup, app, Dockerfile
@@ -20,4 +21,7 @@
 - [ ] Part 2: GitOps deployment
 - [ ] Part 3: CI/CD
 - [x] Part 0: setup, app, Dockerfile
+- [x] Part 1: Terraform cluster
+- [x] Part 2: GitOps deployment
+
 EOF
