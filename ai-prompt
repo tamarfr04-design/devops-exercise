@@ -1,13 +1,91 @@
 # AI prompts (Claude, claude.ai)
 
+Messages I sent to the AI, in order. Where I pasted terminal output, it is summarized in [brackets].
+
 ## 1
-<paste the exercise text you sent me>
+i have a test to do on an empty mac, i need your help to do it, guide me step by step
+<paste the full exercise text here>
 
 ## 2
-no I only did up to part 0 step 2. tell me what to do one thing at a time
+[pasted output of version checks: docker, kind, kubectl, terraform, helm, gh]
 
 ## 3
-no I didn't do step 2
+no I only did up to part 0 step 2. tell me what to do one thing at a time
 
 ## 4
+no I didn't do step 2
+
+## 5
+[pasted output of `git remote -v` after creating the repo]
+
+## 6
 I can't open vs code, not manually either
+
+## 7
+[pasted error from `brew install --cask visual-studio-code`: "App source '/Applications/Visual Studio Code.app' is not there"]
+
+## 8
+installed
+
+## 9
+I did the readme but why the ai-prompt? we need to focus on the task
+
+## 10
+done
+
+## 11
+[pasted output of local curl tests (/healthz 200, HTML page) and git push of server.py]
+
+## 12
+[pasted output of docker build/run, curl /healthz, `docker exec app id` (uid=10001), and the Dockerfile commit]
+
+## 13
+[pasted output of the "README: Part 0 done" commit]
+
+## 14
+got success, next step
+
+## 15
+[pasted terraform apply result "1 added" (expected 3), kubectl get nodes (3 Ready), and empty ingress-nginx/argocd namespaces]
+
+## 16
+[pasted `ls -la` and `terraform state list` from terraform/, which showed a nested terraform/ folder]
+
+## 17
+[pasted `git status`, which showed `gitignore` without a dot and state/credential files staged]
+
+## 18
+[pasted `git status`, which still showed terraform/devops-config staged]
+
+## 19
+[pasted `git status` again, devops-config still staged]
+
+## 20
+ok committed
+
+## 21
+all running
+
+## 22
+[pasted `kubectl kustomize k8s` output and the k8s manifests commit]
+
+## 23
+[pasted output of docker build --provenance=false and kind load docker-image]
+
+## 24
+ok done and comitted
+
+## 25
+[pasted output of the "README: Part 2 done" commit]
+
+## 26
+[pasted `gh run watch` output: CI green, with Node.js 20 deprecation annotation]
+
+## 27
+[pasted page content: message, Version 3155ee300258f607f97001b019390140adeb6c2f, Pod devops-app-bc9df6c8f-lcddf]
+
+## 28
+[pasted zero-downtime loop output: OK 1401, FAILED 0, and the commits that followed]
+
+## 29
+give me the prompts I need to add here
