@@ -17,4 +17,5 @@
 - [ ] Part 1: Terraform cluster
 - [ ] Part 2: GitOps deployment
 - [ ] Part 3: CI/CD
+- [x] Part 0: setup, app, Dockerfile
 EOF
