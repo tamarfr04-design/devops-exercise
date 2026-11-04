@@ -7,5 +7,5 @@ resources:
   - ingress.yaml
 images:
   - name: devops-app
-    newName: devops-app
-    newTag: local
+    newName: ghcr.io/tamarfr04-design/devops-exercise
+    newTag: 3155ee300258f607f97001b019390140adeb6c2f
