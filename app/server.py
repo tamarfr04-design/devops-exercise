@@ -5,7 +5,7 @@ import socket
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-MESSAGE = "Hello from the DevOps exercise!"
+MESSAGE = "Hello again - deployed with zero downtime!"
 VERSION = os.getenv("APP_VERSION", "dev")
 POD_NAME = os.getenv("POD_NAME", socket.gethostname())
 PORT = int(os.getenv("PORT", "8080"))
