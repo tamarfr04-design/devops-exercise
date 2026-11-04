@@ -8,4 +8,4 @@ resources:
 images:
   - name: devops-app
     newName: ghcr.io/tamarfr04-design/devops-exercise
-    newTag: 3155ee300258f607f97001b019390140adeb6c2f
+    newTag: 7cf4c731dc06f551fffe902f3f53c449a339dad5
